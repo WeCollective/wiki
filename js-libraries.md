@@ -43,8 +43,8 @@ In this article, you'l llearn make real-time animated fractal in only 32 lines o
 morioh.com
 * here's for a fractal animation: https://morioh.com/p/5db14dad11f2
 * this is pretty cool too: https://codepen.io/gillescastel/pen/vOmadz
-*
+
 * https://sweetalert2.github.io/
 * https://reactflow.dev/
-* 
+* https://nivo.rocks/
 
