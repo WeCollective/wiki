@@ -66,3 +66,11 @@ morioh.com
 # sound
 * https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/
 * https://www.daily.co/blog/how-to-build-a-billion-dollar-audio-app-in-a-weekend/
+
+# speech to text
+* https://github.com/anandakrishnan18/speech-recognizer
+* https://github.com/JamesBrill/react-speech-recognition
+* https://www.rev.com/blog/resources/speech-recognition-in-react-with-speech-to-text-api
+* https://github.com/Riley-Brown/react-speech-to-text
+* https://www.speechly.com/pricing#faq
+* 
