@@ -32,6 +32,7 @@ and https://mdn.github.io/voice-change-o-matic/
 
 * https://www.youtube.com/watch?v=bQmf0b9E39g
 * https://www.descript.com/audiograms
+* https://bestofreactjs.com/repo/saharmor-realtime-transcription-playground-react-audio-video
 
 
 # animation
@@ -47,4 +48,21 @@ morioh.com
 * https://sweetalert2.github.io/
 * https://reactflow.dev/
 * https://nivo.rocks/
+* https://github.com/teodosii/react-tweenful
 
+# UI
+
+* https://caferati.me/demo/react-awesome-button
+* https://github.com/JosephSmith127/react-avatar-generator
+* https://ahmetcanaydemir.com/react-advanced-news-ticker/
+* https://mkosir.github.io/react-hook-mighty-mouse/?path=/story/react-mighty-mouse--flashlight
+* https://github.com/milesj/interweave/tree/master/packages/emoji-picker
+* https://github.com/gabrielbull/react-aim
+* https://github.com/teodosii/react-tweenful
+* https://react-darkreader.vercel.app/
+* https://github.com/glortho/react-keydown
+* 
+
+# sound
+* https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/
+* https://www.daily.co/blog/how-to-build-a-billion-dollar-audio-app-in-a-weekend/
