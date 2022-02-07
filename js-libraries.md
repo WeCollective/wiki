@@ -62,6 +62,7 @@ morioh.com
 * https://react-darkreader.vercel.app/
 * https://github.com/glortho/react-keydown
 * https://github.com/uismithing/react-shake-effect
+* https://github.com/imandrewlux/moire-patterns
 
 # sound
 * https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/
