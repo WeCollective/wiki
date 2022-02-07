@@ -61,7 +61,7 @@ morioh.com
 * https://github.com/teodosii/react-tweenful
 * https://react-darkreader.vercel.app/
 * https://github.com/glortho/react-keydown
-* 
+* https://github.com/uismithing/react-shake-effect
 
 # sound
 * https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/
