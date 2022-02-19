@@ -9,12 +9,12 @@
 
 # audio
 
-* https://github.com/pkalogiros/AudioMass
-* https://github.com/Tonejs/Tone.js
-* https://howlerjs.com/
-* https://meyda.js.org/
+* https://github.com/pkalogiros/AudioMass : Free full-featured web-based audio & waveform editing tool
+* https://github.com/Tonejs/Tone.js : Web Audio framework for creating interactive music in the browser.
+* https://howlerjs.com/ :  Audio library for the modern web. 
+* https://meyda.js.org/ : Audio feature extraction for JavaScript
 
-* https://wavesurfer-js.org/
+* https://wavesurfer-js.org/ : wavesurfer.js is a customizable audio waveform visualization, built on top of Web Audio API and HTML5 Canvas. 
 * Javascript for nice waveforms | Zack Scholl
 A simple Javascript/CSS solution for a drop-in replacement of the standard audio tag for more stylized audio playback.
 schollz.com
