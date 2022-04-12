@@ -63,6 +63,8 @@ morioh.com
 * https://github.com/glortho/react-keydown
 * https://github.com/uismithing/react-shake-effect
 * https://github.com/imandrewlux/moire-patterns
+* * https://github.com/Azgaar/Armoria
+* 
 
 # sound
 * https://www.joshwcomeau.com/react/announcing-use-sound-react-hook/
@@ -74,4 +76,4 @@ morioh.com
 * https://www.rev.com/blog/resources/speech-recognition-in-react-with-speech-to-text-api
 * https://github.com/Riley-Brown/react-speech-to-text
 * https://www.speechly.com/pricing#faq
-* 
+
