@@ -18,7 +18,7 @@
 
 The platform is built around a unique [interconnected](linking.md) [holonic](holonics.md) community framework modelled on the human brain and designed to help users connect, organise, build upon, remix, filter, and explore social content more efficiently.
 
-A simple, albeit limited, way to summarise the design would be to describe it as a mix between [Reddit](https://www.reddit.com/) and [The Brain](https://www.thebrain.com/).
+A simple, albeit limited, way to summarise the basic design would be to describe it as a mix between the social dynamics of [Reddit](https://www.reddit.com/) and the organisational elements of [The Brain](https://www.thebrain.com/).
 
 Within this framework a range of [post types](post-types.md), [community modules](organelles.md), and [lenses](lenses.md) are being developed to meet different collaborative needs for communities.
 
