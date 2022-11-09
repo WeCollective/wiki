@@ -15,20 +15,32 @@ To create a link between two posts you simply click on the link button below a p
 <img src='images/new-link-modal.jpg' height='350px'>
 <img src='images/post-id-for-link.jpg' height='350px'>
 
-Once connected, other users can then see the link attached to the post by opening the same link modal and navigate directly to that post. The other post will also now contain a link back to the original post allowing navigation in both directions.
+Once connected, other users can then see the link attached to the post by opening the same link modal and navigate directly to that post.
 
-[image1] [image2]
+<img src='images/outgoing-link-modal.jpg' height='350px'>
 
-If you switch over to the post map [lense](lenses.md) you can see these links visualised on the graph with the text descriptions of their relationships.
+The other post will also now contain a link back to the original post allowing navigation in both directions.
 
-[post map image with links]
+<img src='images/incoming-link-modal.jpg' height='350px'>
 
-This linking approach enables users to build up and easily explore networks of related content in a completely new way that would otherwise be much harder on other social networks.
+The link modal UI is very basic at the moment but we have plans to display more info about each post and its relationship with addtional filtering and search options.
 
-To avoid clutter and improve the relevance of the links displayed to users, we also plan to allow users to [rate](ratings.md) each link. We'll then rank and display or hide links based on their relevance, as judged by the user base at large, and make it possible to search or filter those links based on different metrics, giving you even more control over the related content you're finding.
+If you switch over to the post map [lense](lenses.md) you can also see these links connecting the posts visualised on the graph.
+
+<img src='images/post-map-links.jpg' width='500px'>
+
+Below is a zoomed out view of all the posts and links currently on the platform:
+
+<img src='images/full-post-map.jpg' width='700px'>
+
+Using this approach, users are able to build up and explore networks of related content that would otherwise remain fragmented and much harder to find on other social networks.
+
+To avoid clutter and improve the relevance of the links displayed to users, we also plan to allow users to [rate](ratings.md) links. We'll then rank and display or hide links based on their relevance, as judged by users in each community, and make it possible to search or filter links based on different metrics; providing even more control over the related content you're finding. The relevance of links could additionally be represented with visual cues like the thickness or colour of the links to help users make sense of the information.
 
 When you arrive at any peice of content on the platform, you'll now have a range of recommended related content instantly available at your fingertips.
 
-...
+---
 
-Another use of this linking system can be seen on Glass Bead Game posts...
+Another use of this linking system can be seen on [Glass Bead Game]() posts where beads (sub-posts) are linked together into a string of content:
+
+<img src='images/weave-post.jpg' width='700px'>
