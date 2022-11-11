@@ -12,13 +12,13 @@ One of the core unique features of weco is its [holonic](<https://en.wikipedia.o
 
 <!-- <img src='images/deep-nesting.jpg' width='600px'> -->
 
-Up until now, social containers like _groups_, _communities_, or _subreddits_ on all the largest social networks have existed as fundamentally separate locations on a single hierarchical level.
+Up until now, social containers like **groups**, **communities**, or **subreddits** on all the largest social networks have existed as fundamentally separate locations on a single hierarchical level.
 
-You can create as many of these containers as you like (horizontally) but it’s not possible to nest containers within each other (vertically).
+You can create as many of these containers as you like, horizontally, but it’s not possible to nest containers within each other vertically.
 
 It's a bit like a folder structure on a computer where you're free to create new folders and add content to them but, for reasons we'll get into, it’s not possible to add sub-folders.
 
-In some cases, a predefined set of sub-containers like _Events_ or _Rooms_ on Facebook groups are included, or content can be subdivided by group hashtags as seen with Reddit's _flairs_, but custom multi-level nesting of containers hasn't been an option.
+In some cases, a predefined set of sub-containers like **Events** or **Rooms** on Facebook groups are included, or content can be subdivided by group hashtags as seen with Reddit's **flairs**, but custom multi-level nesting of containers hasn't been an option.
 
 Depending on the size and purpose of the community, these predefined sub-containers and group hashtags may be adequate to meet organisational needs up to a point. But as communities grow in scale and complexity, or if they simply require a higher level of organisation, the restrictions inherent in this design can force unnecessary fragmentation and significantly limit group capacity.
 
@@ -133,7 +133,7 @@ In the future we plan to add the following additional governance features:
 - The ability to directly link governance decisions and space settings to democratic polls and other decision making tools on the platform
 - The ability to define a range of different user roles within a space linked to unique permission sets
 - The ability to set rules in spaces that propagate down the holarchy...
-- DAO integration (Cosmos, Juno, DAODAO)
+- DAO integration for onchain voting
 
 #### Competition and Natural Selection
 
@@ -212,7 +212,7 @@ It could in part be simply because enough people haven't considered it as a poss
 
 Another possibility is that it's been considered by some of the larger platforms but discarded as an unnecessary or problematic innovation. The way they've structured their platforms has worked well for them up until now and so taking the time and/or risk to develop a new organisational structure just isn't a priority.
 
-One of the reasons it may have been discarded as problematic is due to the problem of _recursive queries_ when approaching multi-level aggregation.
+One of the reasons it may have been discarded as problematic is due to the problem of **recursive queries** when approaching multi-level aggregation.
 
 If content only exists on a single hierarchical level, querying posts from a database is relatively simple. You can create a table for spaces that looks a bit like this:
 
@@ -272,7 +272,7 @@ To solve this problem and avoid recursive post queries altogether, weco uses ano
 
 When a new child space is created or attached to a new parent it inherits all of that parents ancestors, not just its direct parents.
 
-The tree graph below helps to illustrate these relationships with the additional root space all (id: 0) at the top:
+The tree graph below helps to illustrate how these ancestor relationships accumulate (with the additional root space all (id: 0) at the top):
 
 <img src='images/holarchy-scenario-1.jpg' width='700px'>
 
@@ -295,7 +295,7 @@ Querying a spaces descendants can also be used to:
 - display every descendent space contained within an ancestor space regardless of depth (used in the depth filter settings when navigating spaces)
 - work out which descendent spaces are effected by rules and constraints set in an ancestor space
 
-Because posts can exist in many spaces at once _and_ spaces can contain many posts, instead of storing a single spaceId on each post like the example post table above, a separate [associative table](https://en.wikipedia.org/wiki/Associative_entity) is used to store these [Many to Many](<https://en.wikipedia.org/wiki/Many-to-many_(data_model)>) relationships:
+Because posts can exist in many spaces at once **and** spaces can contain many posts, instead of storing a single spaceId on each post like the example post table above, a separate [associative table](https://en.wikipedia.org/wiki/Associative_entity) is used to store these [Many to Many](<https://en.wikipedia.org/wiki/Many-to-many_(data_model)>) relationships:
 
 #### SpacePosts
 
@@ -305,6 +305,8 @@ When a new post is created, the ancestors of each space it is tagged with are ch
 
 You can see, for example, that rows 14 - 17 are all for the same DNA post, but each row informs us about a different space it exists within.
 
+Because there is a unique entry for each space the post exists within it's also possible for mods of one space in the chain to change a posts state in their space (remove it, reinstate it etc.), without effecting its state in the other spaces.
+
 To grab all the posts for the Science space you can now just query this SpacePosts table for every entry with a matching spaceId.
 
 `SELECT * FROM SpacePosts WHERE SpacePosts.spaceId = 1`
@@ -312,8 +314,6 @@ To grab all the posts for the Science space you can now just query this SpacePos
 Which in this case will return rows with the following post ids: 2 (Science post...), 3 (Physics post...), 5 (Biology post...), 6 (Genetics post...), 7 (Science post 2...), 8 (Chemistry post...), and 9 (DNA post...).
 
 As you can see, this selection now includes posts submitted not just directly to Science but to all of its contained descendent spaces.
-
-Because there is a unique entry for each space the post exists within it's also possible for mods of one space in the chain to change a posts state in their space (remove it, reinstate it etc.), without effecting its state in the other spaces.
 
 It makes sense to maintain both the SpaceParents and SpaceAncestors tables because both are useful in different circumstances. The SpaceAncestors table only informs us about the total ancestors and descendants of a space but doesn't tell us the order they are arranged in. The SpaceParents table can thus be used to work out specifically which spaces connect to which others and the nature of their relationships when that information is needed.
 

@@ -2,11 +2,11 @@
 
 While weco's [holonic framework](holonics.md) helps to reduce **spatial** fragmention in social containers, another problem that often arises for online communities is **temporal** fragmentation.
 
-If you post something in a community today and then three months or a year later someone else posts something very relevant in the same community, even though it exists in the same spatial location, the distance in time between them can make it hard for people to connect them together.
+If you post something in a community today and then three months or a year later someone else posts something very relevant in the same community, even though it exists in the same location, the distance in time between them can make it hard for people to connect them together.
 
-The only real way to notice those relationships is to keep track of everything passing the through the community in your memory and then search or scroll your way back to the earlier post. If you're new to the community or there are many related posts spread out across different times this task is even harder.
+The only real way to notice those relationships is to keep track of everything passing the through the community in your memory and then search or scroll your way back to the earlier post. If you're new to the community or there are many related posts spread out across different times this task becomes even harder.
 
-To address this problem we've built in the ability to create internal bidirectional links between content on weco.
+To address this problem and facilitate a more interconnected network we've built in the ability to create internal bidirectional links between content on weco.
 
 At the moment they're only implemented on posts but we plan to allow connections to be made between spaces, users, comments, and other items as well, enabling complex knowledge graphs, weaving together related content across the entire platform, to evolve over time through collective user interactions.
 

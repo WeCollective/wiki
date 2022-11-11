@@ -14,9 +14,9 @@
 
 ## Intro
 
-[weco.io](https://weco.io) is an evolving open source [bio-mimetically](https://en.wikipedia.org/wiki/Biomimetics) inspired experiment in social network design, collective intelligence, and cooperative ownership.
+[weco.io](https://weco.io) is an evolving, [open source](https://github.com/wecollective), biomimetically inspired experiment in social network design, collective intelligence, and cooperative ownership.
 
-The platform is built around a unique [interconnected](linking.md) [holonic](holonics.md) community framework modelled on the human brain and designed to help users connect, organise, build upon, remix, filter, and explore social content more efficiently.
+The platform is built around a unique [interlinked](linking.md) [holonic](holonics.md) community framework modelled on the human brain and designed to help users connect, organise, build upon, remix, filter, and explore social content more efficiently.
 
 A simple, albeit limited, way to summarise the basic design would be to describe it as a mix between the social dynamics of [Reddit](https://www.reddit.com/) and the organisational elements of [The Brain](https://www.thebrain.com/).
 
