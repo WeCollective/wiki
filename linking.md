@@ -12,26 +12,26 @@ At the moment they're only implemented on posts but we plan to allow connections
 
 To create a link between two posts you simply click on the link button below a post to open the link modal and enter the id of the other post you want to connect it to. You then also have the option to add a description of their relationship if you want.
 
-<img src='images/new-link-modal.jpg' height='350px'>
-<img src='images/post-id-for-link.jpg' height='350px'>
+<img src='archived-resources/images/new-link-modal.jpg' height='350px'>
+<img src='archived-resources/images/post-id-for-link.jpg' height='350px'>
 
 Once connected, other users can then see the link attached to the post by opening the same link modal and navigate directly to that post.
 
-<img src='images/outgoing-link-modal.jpg' height='350px'>
+<img src='archived-resources/images/outgoing-link-modal.jpg' height='350px'>
 
 The other post will also now contain a link back to the original post allowing navigation in both directions.
 
-<img src='images/incoming-link-modal.jpg' height='350px'>
+<img src='archived-resources/images/incoming-link-modal.jpg' height='350px'>
 
 The link modal UI is very basic at the moment but we have plans to display more info about each post and its relationship with addtional filtering and search options.
 
 If you switch over to the post map [lense](lenses.md) you can also see these links connecting the posts visualised on the graph.
 
-<img src='images/post-map-links.jpg' width='500px'>
+<img src='archived-resources/images/post-map-links.jpg' width='500px'>
 
 Below is a zoomed out view of all the posts and links currently on the platform:
 
-<img src='images/full-post-map.jpg' width='700px'>
+<img src='archived-resources/images/full-post-map.jpg' width='700px'>
 
 Using this approach, users are able to build up and explore networks of related content that would otherwise remain fragmented and much harder to find on other social networks.
 
@@ -43,4 +43,4 @@ When you arrive at any peice of content on the platform, you'll now have a range
 
 Another use of this linking system can be seen on [Glass Bead Game]() posts where beads (sub-posts) are linked together into a string of content:
 
-<img src='images/weave-post.jpg' width='700px'>
+<img src='archived-resources/images/weave-post.jpg' width='700px'>

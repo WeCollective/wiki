@@ -10,7 +10,7 @@ One of the core unique features of weco is its [holonic](<https://en.wikipedia.o
 
 #### The Problem
 
-<!-- <img src='images/deep-nesting.jpg' width='600px'> -->
+<!-- <img src='archived-resources/images/deep-nesting.jpg' width='600px'> -->
 
 Up until now, social containers like **groups**, **communities**, or **subreddits** on all the largest social networks have existed as fundamentally separate locations on a single hierarchical level.
 
@@ -38,15 +38,15 @@ The result in most cases is that people just get used to more mess as their comm
 
 To address these and other related issues weco has been designed from the ground up to enable unlimited nesting of social containers (a.k.a 'spaces').
 
-<img src='images/holonic-transition.gif' width='600px'>
+<img src='archived-resources/images/holonic-transition.gif' width='600px'>
 
 This means it's possible to create an umbrella space for a large topic like [Science](https://weco.io/s/science/spaces) which contains sub-spaces within it for [Biology](https://weco.io/s/biology/spaces), [Chemistry](https://weco.io/s/chemistry/spaces), and [Physics](https://weco.io/s/physics/spaces), each of which can themselves contain as many further sub-space as they like, and so on, as deep as is useful to the community at large.
 
-<img src='images/science-holarchy-collapsed.jpg' width='700px'>
+<img src='archived-resources/images/science-holarchy-collapsed.jpg' width='700px'>
 
 Similarly, a space could be created for a city like [Bristol](https://weco.io/s/bristol/spaces), which contains sub-spaces for [local neighborhoods](https://weco.io/s/bristol-neighbourhoods/spaces), or general interests within the city like [Bristol Food](https://weco.io/s/bristol-food/spaces), [Bristol Artists](https://weco.io/s/bristol-artists/spaces) etc.
 
-<img src='images/bristol-holarchy-expanded.jpg' width='700px'>
+<img src='archived-resources/images/bristol-holarchy-expanded.jpg' width='700px'>
 
 And this same organisational logic can be applied to any ontological or community structure that's useful to users.
 
@@ -58,19 +58,19 @@ Below are a series of digrams illustrating the evolution of social network conta
 
 Each social container could be seen as a kind of social cell/vessel, with inputs (content sharing), processing (interactions), and outputs (ranked/filtered content):
 
-<img src='images/social-cell.jpeg' width='700px'>
+<img src='archived-resources/images/social-cell.jpeg' width='700px'>
 
 The first social news sites, like [Digg](https://digg.com/), had a fixed set of containers, each of which feed into the global container 'all':
 
-<img src='images/digg-holarchy.jpeg' width='700px'>
+<img src='archived-resources/images/digg-holarchy.jpeg' width='700px'>
 
 Later, platforms like [Reddit](https://www.reddit.com/) introduced the ability to create containers for any subject users were interested in:
 
-<img src='images/reddit-holarchy.jpeg' width='700px'>
+<img src='archived-resources/images/reddit-holarchy.jpeg' width='700px'>
 
 Weco now offers the ability both to create containers for any subject and nest them within each other to any depth:
 
-<img src='images/weco-holarchy.jpeg' width='800px'>
+<img src='archived-resources/images/weco-holarchy.jpeg' width='800px'>
 
 ---
 
@@ -94,15 +94,15 @@ Another core aspect of the design is that both posts and spaces can exist in mul
 
 Posts can be tagged with as many spaces as desired when created or reposted to new spaces after creation, causing them to show up in each location at the same time without the need for duplicates. Each instance of the post simply points back to the same entry in the database, helping to reduce unnecessary clutter within the overall holarchy.
 
-<img src='images/multi-local-posts.jpg' height='300px'>
+<img src='archived-resources/images/multi-local-posts.jpg' height='300px'>
 
-<img src='images/reposted-post.jpg' height='300px'>
+<img src='archived-resources/images/reposted-post.jpg' height='300px'>
 
 Spaces can also have multiple parents, allowing them to exist in many different locations at once.
 
 One example in the current holarchy is the [Biochemistry](https://weco.io/s/biochemistry/spaces) space which exists in both [Biology](https://weco.io/s/biology) and [Chemistry](https://weco.io/s/chemistry), feeding its content into both.
 
-<img src='images/bio-chem.jpg' width='300px'>
+<img src='archived-resources/images/bio-chem.jpg' width='300px'>
 
 #### Moderation
 
@@ -121,7 +121,7 @@ The provides a lot of flexibility within the design, granting creators of spaces
 
 Spaces can also be made private. Moderators can then send out invites or let users individually request access. All content shared within these spaces is hidden throughout the wider holarchy unless you have been granted access.
 
-<img src='images/private-space.jpg' width='300px'>
+<img src='archived-resources/images/private-space.jpg' width='300px'>
 
 It's possible to nest private spaces within each other too, each having their own access rights, allowing for complex permission based architectures to be experimented with.
 
@@ -141,7 +141,7 @@ As the number of spaces within a holarchy grows, displaying every space at every
 
 In order to make the first spaces that show up as relevant as possible, they're ranked like posts by various metrics. Currently the default view sorts the spaces from left to right by the total number of likes they contain but other options include total posts, total followers, total reactions, total comments, total ratings, and the date they were created. Eventually we plan to allow spaces to choose their own default sorting algorithms or even design their own.
 
-<img src='images/space-filter-change.gif' width='600px'>
+<img src='archived-resources/images/space-filter-change.gif' width='600px'>
 
 An interesting property that emerges from this filtering approach is that it enables a decentralised user-driven natural selection process to unfold at each level of a holarchy, where spaces that are able to gain more traction, as measured by these metrics, are rewarded with increased visibility on the platform while unused or inactive spaces, in contrast, sink down the listings, reducing their exposure.
 
@@ -175,7 +175,7 @@ This means that the content on the front page is almost entirely dominated by po
 
 In contrast, the holonic framework provides an incremental gradient of steps from small niche spaces up to the largest space 'all' (equivalent to the front page of Reddit). If a niche topic like 'The Philosophy of Quantum Mechanics' was nested in a larger holarchy (All > Science > Physics > Quantum Mechanics > The Philosophy of Quantum Mechanics) posts submitted there now have a kind of ladder/'exposure gradient' they can climb up all the way to the top, provided enough users up-vote it along the way.
 
-<img src='images/exposure-gradient.jpeg' width='700px'>
+<img src='archived-resources/images/exposure-gradient.jpeg' width='700px'>
 
 When a post is first submitted to a niche space nested deep in a holarchy, it's most likely to show up on the front page of that space and less and less likely to show up on the front page of each parent space above it, as each higher parent space aggregates more and more posts. So its initial exposure is constrained to people most interested in that specific subject, where it will receive its most relevant views. If they up-vote it enough there, however, it will then start to gain exposure in the first parent space above it, where it's now being seen by a larger number of users, with a slightly broader range of interests. If they up-vote it enough there, it will then start to move up the ranks of the next parent space above, where it will gain even more views from an even broader range of users, and so on all the way up the holarchy.
 
@@ -218,13 +218,13 @@ If content only exists on a single hierarchical level, querying posts from a dat
 
 #### Spaces
 
-<img src='images/space-table.jpg' height='200px'>
+<img src='archived-resources/images/space-table.jpg' height='200px'>
 
 And a table for posts that looks a bit like this, where each entry references the space they exist within:
 
 #### Posts
 
-<img src='images/post-table.jpg' height='200px'>
+<img src='archived-resources/images/post-table.jpg' height='200px'>
 
 To get all the posts for a specific space, like Science, you now just need to search for posts with a matching spaceId: 1.
 
@@ -240,7 +240,7 @@ To keep track of these relationships you could create an additional table called
 
 #### SpaceParents
 
-<img src='images/space-parents-table.jpg' height='110px'>
+<img src='archived-resources/images/space-parents-table.jpg' height='110px'>
 
 Using this table you can now work out that:
 
@@ -268,13 +268,13 @@ To solve this problem and avoid recursive post queries altogether, weco uses ano
 
 #### SpaceAncestors
 
-<img src='images/space-ancestors-table.jpg' height='160px'>
+<img src='archived-resources/images/space-ancestors-table.jpg' height='160px'>
 
 When a new child space is created or attached to a new parent it inherits all of that parents ancestors, not just its direct parents.
 
 The tree graph below helps to illustrate how these ancestor relationships accumulate (with the additional root space all (id: 0) at the top):
 
-<img src='images/holarchy-scenario-1.jpg' width='700px'>
+<img src='archived-resources/images/holarchy-scenario-1.jpg' width='700px'>
 
 With a single query to this table you can now work out that the DNA space (10) has the following **ancestors**: All (0), Science (1), Biology (4), and Genetics (8).
 
@@ -299,7 +299,7 @@ Because posts can exist in many spaces at once **and** spaces can contain many p
 
 #### SpacePosts
 
-<img src='images/space-posts-table.jpg' height='350px'>
+<img src='archived-resources/images/space-posts-table.jpg' height='350px'>
 
 When a new post is created, the ancestors of each space it is tagged with are checked using the SpaceAncestors table and then a unique entry is added to the SpacePosts table above for each location the post should show up in.
 
